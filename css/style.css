@@ -1,0 +1,193 @@
+@charset "UTF-8";
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, p, blockquote, q, tr, th, td, caption, address, span, img, iframe, em, strong, small, article, aside, figcaption, figure, footer, header, main, nav, section, time {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+article, aside, figcaption, figure, footer, header, main, nav, section, time {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+caption, th {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+img {
+  font-size: 0;
+  line-height: 0;
+  vertical-align: top;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/*to enable resizing for IE*/
+input, textarea, select {
+  *font-size: 100%;
+}
+
+/*---google font
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+.tx_hel{font-family: 'Open Sans', sans-serif; font-weight: 400;}
+.tx_rob{font-family: 'Roboto', sans-serif;  font-weight: 400;}
+.thin{font-weight: 300; }
+.bold{font-weight: 500; }
+--------------------------- */
+/******************************************************
+
+ body
+ 
+******************************************************/
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Hiragino Sans', 'ヒラギノ角ゴシック', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Robot, Meiryo, 'メイリオ', "ＭＳ Ｐゴシック", sans-serif;
+  line-height: 1;
+  color: #525252;
+}
+
+a:link, a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+}
+
+a.rollover {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+a.rollover:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  -ms-filter: "alpha(opacity=80)";
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.pc, .pc_in {
+  display: none;
+}
+
+.sp {
+  display: block;
+}
+
+.sp_in {
+  display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+  .pc {
+    display: block;
+  }
+  .pc_in {
+    display: inline-block;
+  }
+  .sp, .sp_in {
+    display: none;
+  }
+}
+
+/******************************************************
+
+ header
+ 
+******************************************************/
+/* globalNav--------------------------------------------- */
+/*-------------------------------------------------------
+トップページ
+-------------------------------------------------------*/
+/*--小項目---------------------------------------------*/
+/*-------------------------------------------------------
+ページ種類
+-------------------------------------------------------*/
+/*-------------------------------------------------------
+ページ種類
+-------------------------------------------------------*/
+/*-------------------------------------------------------
+ページ種類
+-------------------------------------------------------*/
+/*-------------------------------------------------------
+カート
+-------------------------------------------------------*/
+/*--ステップ1---------------------------------------------*/
+/*--ステップ2---------------------------------------------*/
+/*--ステップ3---------------------------------------------*/

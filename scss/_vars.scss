@@ -1,0 +1,20 @@
+// Font
+$font: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+// Color
+$dark:   rgb(115, 143, 153);
+$normal: rgb(136, 187, 204);
+$light:  rgb(172, 215, 230);
+
+$link:  $dark;
+$hover: $normal;
+
+// Size
+$font-size:    16px;
+$icon-size:    32px;
+$favicon-size: 16px;
+
+// Layout
+$gutter: 16px;
+$column: $gutter * 3;
+$cwidth: ($column + $gutter) * 12 - $gutter;
